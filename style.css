@@ -1,0 +1,149 @@
+#nav{
+	float: right;
+
+}
+#logo{
+	background-color: teal;
+	color: white;
+	float: left;
+	min-width: 100px;
+	max-height: 165px;
+	padding: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+.innerheader{
+	width: 960px;
+	margin:0 auto;
+	position: relative;
+}
+.header{
+	min-height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 500;
+	background-color:white;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: bottom: 100px;
+}
+
+body{
+	background-image: url(me.jpeg);
+	background-size: 1000px 1000px;
+	
+}
+.container{
+	position: relative;
+	color: #4aaaa5;
+	margin: 120px auto;
+	width: 960px;
+	min-height: 1000px;
+	background-color: white;
+}
+
+.article{
+	margin-top: 120px;
+	margin-bottom: 150px;
+	min-height: 300px;
+	background-color: white;
+	border-color: white;
+	padding: 25px;
+}
+.photo{
+ float: left;
+ padding-right: 10px;
+}
+
+.text{
+	
+	text-align: justify;
+}
+
+
+footer {
+    border-top: 10px solid #4aaaa5;
+    min-height: 75px;
+    background-color: #666666;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    bottom: 0%;
+    left: 0%;
+}
+
+.copyright {
+    width: 250px;
+	margin: 20px auto;
+   
+}
+
+.text-block{
+	background-color: teal;
+	position: relative;
+	color: white;
+	float: right;
+	min-width: 5px;
+	max-height: 6px;
+	font-family: Georgia, 'Times New Roman', Times, serif
+	bottom: 10px;
+	padding-left 10px;
+	padding-right:10px;
+}
+
+.image{
+	display: block;
+	margin-left: left;
+	margin-right: right;
+}
+
+.bodybox{
+    position: absolute;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 910px;    
+    padding: 25px;
+}
+
+.portfoliopic {
+    margin: auto;
+}
+
+.boxoverpic {
+    position: absolute;
+    background: teal;
+    color: white;
+    width: 55%;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 500;
+    opacity: 0.8;
+}
+
+.floatybox {
+    position: relative;
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background: rgb(202, 202, 202);
+}
+
+.background_Port
+{
+	position: absolute;
+	color: #4aaaa5;
+	margin: 50px 30px;
+	width: 900px;
+	min-height: 400px;
+	background-color: gray;
+
+}
+.h1{
+	
+
+}
